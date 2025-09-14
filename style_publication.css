@@ -1,0 +1,162 @@
+#services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+#services h4{
+  color: rgb(21, 21, 100);
+  margin-bottom: 10px;
+}
+#services p{
+  text-align: justify;
+  
+}
+#titre{
+  text-align: center;
+  color: rgb(21, 21, 100);
+  margin-bottom: 20px;
+  font-size: large;
+}
+.service img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+figcaption{
+  text-align: left;
+  font-weight: 100;
+  margin-bottom: 10px;
+  color: rgb(21, 21, 100);
+  font-size: 14px;
+}
+
+#chercheur-container .profil,
+#contributeur-container .profil{
+  width: 350px;
+  padding: 10px;
+  margin: 20px;
+ 
+}
+#chercheur-container .profil img,
+#contributeur-container .profil img{
+  width: 100%;
+  height: 310px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+#chercheur-container .profil h3,
+#contributeur-container .profil h3{
+  text-align: center;
+  color: rgb(21, 21, 100);
+}
+.profil h4,
+.profil h4{
+  text-align: center;
+  color: #FDC93B;
+  margin: 15px 0;
+}
+.profil p,
+.profil p{
+  text-align: justify;
+}
+.profil i{
+  padding: 10px 13px;
+  border: 1px solid rgb(21, 21, 100 );
+  border-radius: 50%;
+  cursor: pointer;
+  color: rgb(21, 21, 100);
+  transition: 0.4s ease-in-out;
+}
+.profil i:hover{
+  background-color: rgb(21, 21, 100);
+  color: white;
+}
+.active-tab {
+  color: rgb(3, 3, 216) !important;
+}
+#page{
+  background-image: linear-gradient(
+    rgba(9, 5, 54, 0.3),
+    rgba(5, 4, 46, 0.7)
+  ), url("assets/Back.jpg");
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  position: relative;
+}
+
+
+#page h2{
+  color: white;
+}
+
+
+@media (max-width:769px){
+  
+  
+.profil{
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.profil img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+
+}
+#article-container .article-cot{
+  width: 100%;
+  padding: 10px;
+}
+@media (max-width:475px){
+ 
+.profil{
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.profil img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+}
+
+
+@media (max-width:385px){
+ .profil{
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+ .profil img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+#home h2{
+  font-size: 1.1rem;
+}
+#home{
+  height: 60vh;
+}
+
+}

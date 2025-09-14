@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Propos</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> 
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style_publication.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <img src="assets/elks_logo crop.jpg" alt="ELKS Logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html" class="active-tab">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="assets/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="about-home">
+        <h3>A propos de ELK’S CONSTRUCT SARL</h3>
+    </section>
+
+    <!-- Container -->
+    <section id="about-container">
+        <p>
+            Fondée en République Démocratique du Congo, <strong>ELK’S CONSTRUCT SARL</strong> est une entreprise de construction, travaux publics et services opérant sous le régime OHADA. 
+            Elle intervient dans plusieurs domaines : ingénierie, topographie, génie civil, architecture, géomatique, cartographie numérique et développement de matériaux de construction.
+            <br><br>
+            Avec une équipe composée d’ingénieurs, architectes et techniciens qualifiés, l’entreprise se distingue par sa capacité à allier innovation, rigueur et qualité. 
+            Son siège social est situé à Kinshasa, au 277, Avenue Nyangwe, Quartier Voie du Congo, Commune de Lingwala.
+            <br><br>
+            <strong>Notre mission</strong> est de mettre à disposition de nos clients des solutions de construction modernes et durables, adaptées au milieu naturel et socio-économique. 
+            Nous nous engageons à :
+        </p>
+
+        <ul>
+            <li>Créer des emplois stables et bien rémunérés pour les jeunes talents.</li>
+            <li>Fournir des services et produits de haute qualité à un prix accessible.</li>
+            <li>Former et encadrer la jeunesse congolaise à travers des stages et programmes éducatifs.</li>
+            <li>Soutenir les communautés locales en contribuant à l’éducation, la formation et au développement.</li>
+            <li>Contribuer activement au développement durable de la RDC et de l’Afrique en général.</li>
+        </ul>
+
+        <p>
+            À travers ses projets, <strong>ELK’S CONSTRUCT SARL</strong> se positionne comme une entreprise visionnaire, capable de transformer les idées en infrastructures solides et modernes. 
+            Son expertise s’étend de la conception à la réalisation, incluant l’étude, la gestion, l’entretien et la maintenance des bâtiments et infrastructures.
+        </p>
+    </section>
+       
+    <!-- Footer -->
+    <footer>
+        <section id="footer">
+
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <li>elksconstruct@gmail.com</li>
+                <li>+243 821 772 030 / 081 460 3413</li>
+                <li>Ouvert du Lundi au Vendredi: 8h30 à 16h30</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>A Propos</h3>
+                <li>Construction & Génie Civil</li>
+                <li>Ingénierie & Architecture</li>
+                <li>Topographie & Géomatique</li>
+                <li>Inspection & Maintenance</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Inscrivez-vous à notre newsletter</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Entrez votre email">
+                    <a href="#" class="yellow">S'ABONNER</a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p class="technoweb">© 2025 ELK’S CONSTRUCT. Tous droits réservés. <br>
+                    Développé par <a href="https://wa.me/+27698089022">Technoweb</a></p>
+
+                <div class="pro-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+   
+    <script>
+        // Navigation Bar
+        let menuBtn = document.getElementById('menu-btn');
+        let menuClose = document.getElementById('menu-close');
+        
+        menuBtn.addEventListener('click', function() {
+            document.querySelector('.navigation').classList.add('active');
+        });
+        menuClose.addEventListener('click', function() {
+            document.querySelector('.navigation').classList.remove('active');
+        });
+    </script>
+</body>
+</html>
