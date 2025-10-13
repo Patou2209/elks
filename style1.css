@@ -457,6 +457,9 @@ footer .subscribe a.yellow:hover{
 /* responsive */
 
 @media (max-width: 769px), (max-width: 900px) {
+  #home{
+    height: 70vh;
+  }
   #home h1{
   color:white;
   font-size: 2rem;
@@ -727,6 +730,8 @@ footer .subscribe a.yellow:hover{
   }
   #home {
     height: 60vh;
+    align-items: center;
+    justify-content: center;
   }
   nav{
     background-color: white;
