@@ -99,6 +99,7 @@
       padding: 30vh 20px 20px 20px;
       background: linear-gradient(to right, var(--color-bg2) 0%, rgb(255,255,255,0.5) 50%, rgb(255,255,255,0) 100%), url(assets/bbb.jpg) no-repeat center/cover;
       background-position: top;
+      position: relative;
     }
     
 
@@ -113,17 +114,30 @@
       line-height: 1.8;
       color: var(--color-white);
     }
-    .proj .btn{
+    .gallery-btn{
       padding: 10px 25px;
       font-size: 1rem;
       background-color: var(--color-warning);
       border: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s ease-in-out;
+      z-index: 1000;
     }
-    .proj .btn:hover{
+    .gallery-btn a{
+      text-decoration: none;
+      color: var(--color-white);
+      font-weight: 600;
+    }
+    .gallery-btn:hover{
       background-color: var(--color-bg2);
       border-color: var(--color-white);
       color: var(--color-white);
     }
+   
 
 
   
