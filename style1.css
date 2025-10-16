@@ -701,6 +701,19 @@ footer .subscribe a.yellow:hover{
    #contact-details{
     margin: 0 0 20px 0;
   }
+  .gallery-btn{
+      padding: 8px 15px;
+      font-size: 0.9rem;
+      background-color: var(--color-warning);
+      border: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s ease-in-out;
+      z-index: 1000;
+    }
 }
 @media (max-width:375px){
 
