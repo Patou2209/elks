@@ -517,7 +517,7 @@ footer .subscribe a.yellow:hover{
     width: 220px;
     right: -220px;
     display: flex;
-    background-color: rgba(17, 20, 104, 0.45);
+    background-color: rgba(21, 21, 100);
     backdrop-filter: blur(4.5px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     height: fit-content;
@@ -710,9 +710,15 @@ footer .subscribe a.yellow:hover{
       bottom: 20px;
       right: 20px;
       cursor: pointer;
+      font-weight: lighter;
       border-radius: 8px;
       transition: 0.3s ease-in-out;
       z-index: 1000;
+    }
+    .gallery-btn a{
+      text-decoration: none;
+      color: var(--color-white);
+      font-weight: lighter;
     }
     .service i{
     font-size: 25px;

@@ -103,7 +103,7 @@ figcaption{
   color: white;
 }
 .active-tab {
-  color: rgb(3, 3, 216) !important;
+  color: #f7c94b !important;
 }
 #page{
   background-image: linear-gradient(
