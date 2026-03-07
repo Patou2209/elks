@@ -3,19 +3,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+font-family: "Roboto Condensed", Arial, Verdana, sans-serif;
   scroll-behavior: smooth;
   user-select: none;
 }
 input, textarea{
   outline: none;
   border: none;
-  font-family: "Poppins", sans-serif;
+font-family: "Roboto Condensed", Arial, Verdana, sans-serif;
   border-bottom: 1px solid #e1e1e1;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+font-family: "Roboto Condensed", Arial, Verdana, sans-serif;
 }
 
 /* Global Tags */
